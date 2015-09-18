@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/ic"
+        android:icon="@drawable/ic_action_new"
+          android:title="@string/create_new"
+          android:orderInCategory="1"
+          android:showAsAction="ifRoom"
+    />
+    
+     <item android:id="@+id/download"
+        android:icon="@drawable/ic_action_new_email"
+          android:title="@string/save"
+          android:orderInCategory="3"
+          android:showAsAction="ifRoom"
+    />
+     
+      <item android:id="@+id/money"
+        android:icon="@drawable/money"
+          android:title="@string/pay_time"
+          android:orderInCategory="2"
+          android:showAsAction="ifRoom"
+    />
+
+    
+
+</menu>

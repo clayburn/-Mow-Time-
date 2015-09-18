@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="hello">Hello</string>
+    <string name="app_name">Mow Time</string>
+    <string name="add_lawn">&quot;Client Name:&quot;</string>
+    <string name="add">&quot;Add&quot;</string>
+    <string name="location">&quot;Location:&quot;</string>
+    <string name="price">&quot;Price:&quot;</string>
+    <string name="date">&quot;Date:&quot;</string>
+    <string name="start_lawn">&quot;Start Cutting Lawn&quot;</string>
+    <string name="change_date">&quot;Reschedule&quot;</string>
+    <string name="stop">&quot;Stop&quot;</string>
+    <string name="cancel">&quot;Cancel&quot;</string>
+    <string name="stop_alert">&quot;Before stopping choose the next cut date.&quot;</string>
+    <string name="employee_name">&quot;Employee's Name:&quot;</string>
+    <string name="employee_rate">&quot;Employee Beginning Pay Rate:&quot;</string>
+    <string name="employee_number">&quot;Employee's Phone Number:&quot;</string>
+    <string name="employee_name_hint">&quot;&quot;</string>
+    <string name="employee_rate_hint">&quot;&quot;</string>
+    <string name="employee_phone_hint">&quot;&quot;</string>
+    <string name="choose_workers">&quot;Click worker to see what they are owed.&quot;</string>
+    <string name="hour">&quot;Hours: &quot;</string>
+    <string name="minute">&quot;Minutes: &quot;</string>
+    <string name="hourly">&quot;Hourly Rate: &quot;</string>
+    <string name="refresh">&quot;Refresh&quot;</string>
+    <string name="done">&quot;Done&quot;</string>
+    <string name="todays_pay">&quot;Total Paid: &quot;</string>
+    <string name="work_today">&quot;Today's Breakdown:&quot;</string>
+    <string name="export">&quot;Export Data&quot;</string>
+    <string name="start_time">&quot;Starting time: &quot;</string>
+    <string name="choose_employee">&quot;Select an employee to edit.&quot;</string>
+    <string name="submit">&quot;Submit&quot;</string>
+    <string name="finish">&quot;Finish&quot;</string>
+    <string name="elapsed">&quot;Elapsed Time: &quot;</string>
+
+    <string-array name="available_tasks">
+        <item>Cut Limbs</item>
+        <item android:id="@+id/cut" android:layout_width="wrap_content" android:layout_height="wrap_content">Cut Grass</item>
+        <item>Cut Hedges</item>
+        <item>Clean Up</item>
+        <item>Pick Up Trash</item>
+        <item>Pine Straw</item>
+        <item>Weed Eat</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="pause">&quot;Pause&quot;</string>
+    <string name="unpause">&quot;Unpause&quot;</string>
+    <string name="employee">&quot;Employee&quot;</string>
+    <string name="lawn">&quot;Client&quot;</string>
+    <string name="paid">&quot;Paid&quot;</string>
+    <string name="check_label">&quot;label&quot;</string>
+    <string name="cut_limbs">Cut Limbs</string>
+    <string name="cut_grass">Cut Grass</string>
+     <string name="save">Save</string>
+    <string name="cut_hedges">Cut Hedges</string>
+    <string name="clean_up">Clean Up</string>
+    <string name="pine_straw">Pine Straw</string>
+    <string name="weed_eat">Weed Eat</string>
+    <string name="other">Other</string>
+    <string name="accomplishments">&quot;Accomplishments&quot;</string>
+    <string name="new_date">&quot;Next Cut&quot;</string>
+    <string name="client">&quot;Client Name:&quot;</string>
+    <string name="hours">&quot;Hours:&quot;</string>
+    <string name="minutes">&quot;Minutes:&quot;</string>
+    <string name="group">&quot;Group&quot;</string>
+    <string name="totals">&quot;Today's Totals:&quot;</string>
+    <string name="breakdown">&quot;Complete Breakdown&quot;</string>
+    <string name="phone">&quot;Phone Number&quot;</string>
+    <string name="client_underline"><u>&quot;Clients&quot;</u></string>
+    <string name="employee_underline"><u>&quot;Employees&quot;</u></string>
+    <string name="title_activity_add">AddActivity</string>
+    <string name = "pay_time">Pay Calculator</string>
+     <string name="create_new">Create New</string>
+     <string name="email_question">Email files</string>
+     <string name="send">&quot;Send&quot;</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/accomplishments"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+         >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/Check_Grass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cut_grass"
+                />
+                 
+
+            <CheckBox
+                android:id="@+id/Check_Hedges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cut_hedges" />
+
+            <CheckBox
+                android:id="@+id/Check_Clean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/clean_up" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/Check_Pine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pine_straw" />
+
+            <CheckBox
+                android:id="@+id/Check_Limbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cut_limbs" />
+
+            <CheckBox
+                android:id="@+id/Check_Other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/other" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/blank_Other"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@drawable/border" >
+
+        <Button
+            android:id="@+id/finish_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="@string/finish" />
+
+        <Button
+            android:id="@+id/cancel_finish_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="@string/cancel" />
+    </LinearLayout>
+</LinearLayout>
+  </ScrollView>
